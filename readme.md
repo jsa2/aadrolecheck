@@ -17,8 +17,9 @@ InputObject                                                                     
 Connect-AzureAD with appropriate account and roles 
 https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0#directory-roles  
 ## Function
-Connect-AzureAD
+
 ```Powershell
+Connect-AzureAD
 # Get the roles you want to be used in the function 
 Get-AzureADDirectoryRole
 
