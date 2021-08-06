@@ -25,11 +25,6 @@ Get-AzureADDirectoryRole
 #Roles below for Global admins and Security Reader 
 $roles = "862e258d-ffac-40fd-aa9d-7b2a990c3070,09dc17e0-996d-4b81-ac46-1925550d6ddc" -split ","
 
-#Init roles 
-#Roles below
-$roles = "862e258d-ffac-40fd-aa9d-7b2a990c3070,09dc17e0-996d-4b81-ac46-1925550d6ddc" -split ","
-
-
 #Function will check change in role. If role file does not exist, or import of the file fails, it will overwrite with new file
 function RoleChecker ($roleId) {
 
